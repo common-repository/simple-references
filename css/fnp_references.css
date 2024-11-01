@@ -1,0 +1,49 @@
+.bxslider li a img, .nobxslider li img{
+	float:left;
+	position:relative;
+	vertical-align: middle ;
+	
+}
+
+.nobxslider li img {
+	padding: 0 40px;
+	
+}
+
+.bxslider li img.img_black{
+	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+	
+}
+.bxslider li img.img_black:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.bx-wrapper li img{
+	width: auto;
+}
+
+.bxslider li a{
+	float:left;
+	position:relative;
+}
+
+.bxslider li, footer .widget_container ul.bxslider li {
+	float:left;
+	position:relative;
+	list-style:none;
+	padding:0;
+	background:transparent;
+	margin:0;
+	width:auto;
+}
+
+.bx-wrapper .bx-viewport {
+	margin:  10px 40px;
+	
+}
+/* .bx-wrapper .bx-controls{
+	display:none;
+} */
